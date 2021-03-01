@@ -119,7 +119,7 @@ $userimg = $_SESSION['userimg'];
             </div>
         </li>
         <li class="nav-item">
-            <h4><img src="<?= $user['userimg'] ?>" style="border-radius:50%;max-height:60px" alt="" width="60" height="60">
+            <h4><img src="<?= $user['userimg'] ?>" style="border-radius:50%;max-height:50px" alt="">
                 <a href="./Layouts/logout.php"><?= $user['username'] ?></a>
             </h4>
         </li>

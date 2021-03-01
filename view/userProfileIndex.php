@@ -34,7 +34,7 @@ $user = $con->query($query)->fetch();
 
         <?php include './Layouts/Navbar-v.php'; ?>
 
-        <?php include './Layouts/dashboard.php'; ?>
+        <?php include './Layouts/editUserProfile.php'; ?>
 
         <aside class="control-sidebar control-sidebar-dark">
         </aside>
@@ -51,5 +51,7 @@ $user = $con->query($query)->fetch();
     <script src="dist/js/demo.js"></script>
     <script src="dist/js/pages/dashboard3.js"></script>
 </body>
+
+<script src="../view/custom/js/editUserProfile.js"></script>
 
 </html>
