@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
         $query = "SELECT * FROM user_login WHERE usermail='$usermail'";
         // echo $query;
 
-        $isLive = $con->query($query)->fetch();
+        $isLive = $con->query($query)->fetch() or die("Somthing Wrong");
 
 
         if (@is_array($isLive)) {
